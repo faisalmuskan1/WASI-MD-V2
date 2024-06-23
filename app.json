@@ -1,15 +1,15 @@
 {
-  "name": "wasi-md-v2",
+  "name": "faisal-md-v2",
   "description": "Simple WhatsApp Bot",
   "logo": "https://github.com/Itxxwasi/WASI-MD-V2/blob/main/lib/assets/logo.png?raw=true",
-  "keywords": ["WASI-MD-V2", "WASIV2", "WASI MD","WASI MD","wasi","wasitech"],
+  "keywords": ["faisal-MD-V2", "faisal", "faisal MD","faisal MD","faisa","wasitech"],
   "success_url": "/",
   "stack": "container",
 
   "env": {
     "OWNER_NAME": {
       "description": "Name for Bot Owner",
-      "value": "𝐖𝐀𝐒𝐈-𝐓𝐄𝐂𝐇",
+      "value": "faisal-𝐓𝐄𝐂𝐇",
       "required": true
     },
     "CAPTION" : {
@@ -25,7 +25,7 @@
     
     "IMAGE" : {
       "description": "THUMB IMAGE FOR BOT ",
-      "value": "https://telegra.ph/file/1f4e6e1cc2ed1662adb36.jpg",
+      "value": "https://telegra.ph/file/9e49136634eb1a6539347.jpg",
       "required" : true
     },
 
@@ -43,7 +43,7 @@
     "BOT_NAME": {
       "description": " NAME FOR BOT",
       "required": false,
-      "value": "𝐖𝐀𝐒𝐈-𝐌𝐃-𝐕2"
+      "value": "faisal-𝐌𝐃-𝐕2"
     },
     "TZ": {
       "description": "Put TIME_ZONE according to your location",
@@ -62,7 +62,7 @@
     },
     "AUTO_SAVE_STATUS": {
       "description": " Auto save whatsapp status",
-      "required": false,
+      "required": true,
       "value": "false"
     },
     "HEROKU_API_KEY": {
@@ -123,7 +123,7 @@
     },
     "PACK_AUTHER": {
       "description": "Put Sticker Author_Name.",
-      "value": "",
+      "value": "faisal",
       "required": false
     }
   },
